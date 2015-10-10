@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<title></title>
+	<script type="text/javascript">
+	function signUp()
+	{
+		window.location.href = '/indextrial/indextrialsignup';
+	}
+	</script>
+</head>
+
+<body>
+	<form method="post" enctype="application/json" action="http://localhost:3000/indextrial/signin">
+		username <input type="text" name="username"> <br /><br />
+		password <input type="password" name="password"> <br /><br />
+		<input type="submit" value="Sign In" />
+	</form>
+
+	<input type="button" value="Sign Up" onclick="signUp()" />
+
+</body>
+
+</html>
