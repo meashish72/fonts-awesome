@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Admin</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Admin</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> User <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                   
+                    <li>
+                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
+                    </li>
+                    <li class="active">
+                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    </li>
+                
+                </ul>
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Identity
+                        </h1>
+                     
+                    </div>
+                </div>
+                <!-- /.row -->
+				<!--MainForm-->
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <form role="form">
+						<!-- For Adhar Card-->
+                            <div class="form-group">
+                                <label>Adhar No.</label>
+                                <input class="form-control" placeholder="0000">
+                                
+                            </div>
+						<!-- Name-->	
+                            <div class="form-group">
+                                <label>First Name</label>
+                                <input class="form-control" placeholder="Ramesh">
+                            </div>
+						<!-- Last Name-->	
+							<div class="form-group">
+                                <label>Last Name</label>
+                                <input class="form-control" placeholder="varma">
+                            </div>
+						<!-- Phone No.-->	
+							 <div class="form-group">
+                                <label>Phone No.</label>
+                                <input class="form-control" placeholder="000000000">
+                            </div>
+						
+					<!--Heading For Adress-->
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="page-header">Adress</h1>    
+						</div>
+					</div>
+						<!--AREA-->
+                            <div class="form-group">
+                                <label>Area</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+						<!--PIN CODE-->	
+							<div class="form-group">
+                                <label>Pin code</label>
+                                <input class="form-control" placeholder="411023">
+                            </div>
+					<!--FORM For INFORMATION-->		
+					<div class="row">
+						<div class="col-lg-12">
+								<h1 class="page-header">Information</h1>
+						</div>
+                </div>
+						<!--AGE-->
+                      <div class="form-group">
+                                <label>Age</label>
+                                <input class="form-control" placeholder="25">
+                            </div>
+						
+						<!--GENDER-->
+					 <div class="form-group">
+                                <label>Gender:</label>
+                                <select class="form-control">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    
+                                </select>
+                            </div>
+						<!--STATUS-->	
+					 <div class="form-group" >
+                                <label>Status:</label>
+                                <select class="form-control">
+                                    <option>Alive</option>
+                                    <option>Dead</option>
+                                    
+                                </select>
+                            </div>	
+						<!--MADICAL CARE-->	
+							
+					<div class="row">
+						<div class="col-lg-12">
+                        <h1 class="page-header">
+                            Medical Care
+                        </h1>
+                    </div>
+					</div>
+						
+						<!--HOSPITAL-->
+					<div class="form-group">
+                                <label>Hospital</label>
+                                <select class="form-control">
+                                    <option>Ruby hall clinic</option>
+                                    <option>Jahangir Hospital</option>
+									<option>Sahyadri Hospital</option>
+                                    
+                                </select>
+                            </div>	
+						<!--DOCTOR NAME-->
+					<div class="form-group">
+                                <label>Doctors name</label>
+                                <input class="form-control" placeholder="DR. Suresh">
+                            </div>
+						<!--DESEASE-->
+					<div class="form-group">
+                                <label>Disease</label>
+                                <select class="form-control">
+                                    <option>Dengue</option>
+                                    <option>Tuberculosis</option>
+									<option>Maleria</option>
+                                    
+                                </select>
+                            </div>
+							
+						<!--DATE-->	
+						<div class="form-group">
+                                <label>Date of consultation</label>
+                                <input type="date" name="dcon">
+                            </div>
+							
+						<!--DISEASE-->	
+							<div class="form-group">
+                                <label>Disease</label>
+                                <select class="form-control">
+                                    <option>Dengue</option>
+                                    <option>Tuberculosis</option>
+									<option>Maleria</option>
+                                    
+                                </select>
+                            </div>
+							
+						<!--ADMIT-->	
+							 <div class="form-group">
+                                <label>Admit</label>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Yes
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">No
+                                    </label>
+                                </div>
+                                
+                            </div>	
+						
+						<!--SUBMIT-->
+                        <form>
+							<input TYPE="button" VALUE="Submit" class="btn btn-default"
+									onclick="window.location.href='#'"> 
+						</form>
+												
+
+                        </form>
+
+                    </div>
+                    
+                </div>
+               
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

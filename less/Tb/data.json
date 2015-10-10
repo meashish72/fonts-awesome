@@ -1,0 +1,18 @@
+{
+  "cols": [
+        {"id":"","label":"","pattern":"","type":"string"},
+        {"id":"","label":"Total Patient","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Deccan","f":null},{"v":2112,"f":null}]},
+        {"c":[{"v":"Kothrud","f":null},{"v":1005,"f":null}]},
+        {"c":[{"v":"Karvenager","f":null},{"v":703,"f":null}]},
+        {"c":[{"v":"oundh","f":null},{"v":620,"f":null}]},
+        {"c":[{"v":"swargate","f":null},{"v":482,"f":null}]},
+        {"c":[{"v":"Katraj","f":null},{"v":420,"f":null}]},
+        {"c":[{"v":"Shivane","f":null},{"v":346,"f":null}]},
+        {"c":[{"v":"NDA","f":null},{"v":306,"f":null}]},
+        {"c":[{"v":"Viman nager","f":null},{"v":1500,"f":null}]},
+        {"c":[{"v":"Hadpsar","f":null},{"v":231,"f":null}]}
+      ]
+} 
